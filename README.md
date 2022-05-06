@@ -23,12 +23,13 @@
 
 ## 準備數據
 - 讀取dataset
-- 用seaborn畫熱圖顯示相關係數
 - 使用 train_test_split() 切割資料
 
 
 
-## 選擇模型
+## 訓練模型
+1. training data 分為訓練集 and 測試集
+2. 用 training data 訓練各模型
 - 選擇 SVM,Random Forest,Decision Tree,KNN當model
 
 
@@ -37,11 +38,13 @@
 ## 評估分析
 - 使用confusion matrix作分析
 - 載入classification_report來看預測和實際數值的差異，包含precision、recall、f1-score及support,還有accuracy
-- From the above models it can be notices that their accuracy is as follows,
-    1. KNN Classifier - 92.83%, 在鄰居數量為21時有最好的表現
-    2. SVM Classifier - 96.83%
-    3. Random Forest Classifier - 86.67%
-    4. Decision Tree Classifier - 80.83%
+- From the above models it can be notices that their accuracy is as follows
+
+※※※
+1. KNN Classifier - 92.83%, 在鄰居數量為21時有最好的表現
+2. SVM Classifier - 96.83%
+3. Random Forest Classifier - 86.67%
+4. Decision Tree Classifier - 80.83%
 
 
 ## 預測推論
