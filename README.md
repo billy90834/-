@@ -29,7 +29,7 @@
 
 
 ## 選擇模型
-- 選擇 SVM,Random Forest,Decision Tree,KNN黨model
+- 選擇 SVM,Random Forest,Decision Tree,KNN當model
 
 
 
@@ -38,10 +38,10 @@
 - 使用confusion matrix作分析
 - 載入classification_report來看預測和實際數值的差異，包含precision、recall、f1-score及support,還有accuracy
 - From the above models it can be notices that their accuracy is as follows,
-    1. KNN Classifier - 56.75%
-    2. SVM Classifier - 95.75%
-    3. Random Forest Classifier - 85.5%
-    4. Decision Tree Classifier - 82.75%
+    1. KNN Classifier - 92.83%, 在鄰居數量為21時有最好的表現
+    2. SVM Classifier - 96.83%
+    3. Random Forest Classifier - 86.67%
+    4. Decision Tree Classifier - 80.83%
 
 
 ## 預測推論
